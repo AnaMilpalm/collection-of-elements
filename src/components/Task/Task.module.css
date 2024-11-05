@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid #333;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0 18px;
+    display: inline-flex;
+    height: 25px;
+}
+.btn:hover {
+    border: 1px solid #b9abab;
+    background-color: #b9abab;
+}
+
+.text {
+    padding-right: 6px;
+}
