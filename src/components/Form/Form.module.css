@@ -1,0 +1,17 @@
+.form {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid #333;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    background-color: aliceblue;
+    border: 1px solid #c0afaf;
+}
